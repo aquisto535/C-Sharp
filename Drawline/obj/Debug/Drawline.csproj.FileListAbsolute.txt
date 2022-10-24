@@ -1,0 +1,11 @@
+C:\Users\KOSTA\Desktop\First\Drawline\bin\Debug\Drawline.exe.config
+C:\Users\KOSTA\Desktop\First\Drawline\bin\Debug\Drawline.exe
+C:\Users\KOSTA\Desktop\First\Drawline\bin\Debug\Drawline.pdb
+C:\Users\KOSTA\Desktop\First\Drawline\obj\Debug\Drawline.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\Drawline\obj\Debug\Drawline.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\Drawline\obj\Debug\Drawline.Form1.resources
+C:\Users\KOSTA\Desktop\First\Drawline\obj\Debug\Drawline.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\Drawline\obj\Debug\Drawline.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\Drawline\obj\Debug\Drawline.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\Drawline\obj\Debug\Drawline.exe
+C:\Users\KOSTA\Desktop\First\Drawline\obj\Debug\Drawline.pdb

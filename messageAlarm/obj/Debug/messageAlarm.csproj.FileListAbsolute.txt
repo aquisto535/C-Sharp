@@ -1,0 +1,12 @@
+C:\Users\KOSTA\Desktop\First\messageAlarm\bin\Debug\messageAlarm.exe.config
+C:\Users\KOSTA\Desktop\First\messageAlarm\bin\Debug\messageAlarm.exe
+C:\Users\KOSTA\Desktop\First\messageAlarm\bin\Debug\messageAlarm.pdb
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.Form1.resources
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.msgForm.resources
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.exe
+C:\Users\KOSTA\Desktop\First\messageAlarm\obj\Debug\messageAlarm.pdb

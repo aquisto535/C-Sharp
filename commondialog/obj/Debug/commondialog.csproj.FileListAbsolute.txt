@@ -1,0 +1,11 @@
+C:\Users\KOSTA\Desktop\First\commondialog\bin\Debug\commondialog.exe.config
+C:\Users\KOSTA\Desktop\First\commondialog\bin\Debug\commondialog.exe
+C:\Users\KOSTA\Desktop\First\commondialog\bin\Debug\commondialog.pdb
+C:\Users\KOSTA\Desktop\First\commondialog\obj\Debug\commondialog.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\commondialog\obj\Debug\commondialog.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\commondialog\obj\Debug\commondialog.Form1.resources
+C:\Users\KOSTA\Desktop\First\commondialog\obj\Debug\commondialog.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\commondialog\obj\Debug\commondialog.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\commondialog\obj\Debug\commondialog.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\commondialog\obj\Debug\commondialog.exe
+C:\Users\KOSTA\Desktop\First\commondialog\obj\Debug\commondialog.pdb

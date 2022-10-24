@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "easyCareApp", "easyCareApp.csproj", "{21217942-F5D6-4F91-91CE-98D42FFAEC90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21217942-F5D6-4F91-91CE-98D42FFAEC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21217942-F5D6-4F91-91CE-98D42FFAEC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21217942-F5D6-4F91-91CE-98D42FFAEC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21217942-F5D6-4F91-91CE-98D42FFAEC90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ECBF018B-8AD7-4376-AD6A-D56166FC33CC}
+	EndGlobalSection
+EndGlobal

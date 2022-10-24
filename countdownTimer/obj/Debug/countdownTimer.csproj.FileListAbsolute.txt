@@ -1,0 +1,11 @@
+C:\Users\KOSTA\Desktop\First\countdownTimer\bin\Debug\countdownTimer.exe.config
+C:\Users\KOSTA\Desktop\First\countdownTimer\bin\Debug\countdownTimer.exe
+C:\Users\KOSTA\Desktop\First\countdownTimer\bin\Debug\countdownTimer.pdb
+C:\Users\KOSTA\Desktop\First\countdownTimer\obj\Debug\countdownTimer.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\countdownTimer\obj\Debug\countdownTimer.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\countdownTimer\obj\Debug\countdownTimer.Form1.resources
+C:\Users\KOSTA\Desktop\First\countdownTimer\obj\Debug\countdownTimer.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\countdownTimer\obj\Debug\countdownTimer.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\countdownTimer\obj\Debug\countdownTimer.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\countdownTimer\obj\Debug\countdownTimer.exe
+C:\Users\KOSTA\Desktop\First\countdownTimer\obj\Debug\countdownTimer.pdb

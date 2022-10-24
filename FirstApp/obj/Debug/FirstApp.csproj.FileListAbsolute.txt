@@ -1,0 +1,11 @@
+C:\Users\KOSTA\Desktop\First\FirstApp\bin\Debug\FirstApp.exe.config
+C:\Users\KOSTA\Desktop\First\FirstApp\bin\Debug\FirstApp.exe
+C:\Users\KOSTA\Desktop\First\FirstApp\bin\Debug\FirstApp.pdb
+C:\Users\KOSTA\Desktop\First\FirstApp\obj\Debug\FirstApp.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\FirstApp\obj\Debug\FirstApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\FirstApp\obj\Debug\FirstApp.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\FirstApp\obj\Debug\FirstApp.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\FirstApp\obj\Debug\FirstApp.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\FirstApp\obj\Debug\FirstApp.exe
+C:\Users\KOSTA\Desktop\First\FirstApp\obj\Debug\FirstApp.pdb
+C:\Users\KOSTA\Desktop\First\FirstApp\obj\Debug\FirstApp.Form1.resources

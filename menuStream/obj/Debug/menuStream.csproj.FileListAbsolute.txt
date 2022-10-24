@@ -1,0 +1,11 @@
+C:\Users\KOSTA\Desktop\First\menuStream\bin\Debug\menuStream.exe.config
+C:\Users\KOSTA\Desktop\First\menuStream\bin\Debug\menuStream.exe
+C:\Users\KOSTA\Desktop\First\menuStream\bin\Debug\menuStream.pdb
+C:\Users\KOSTA\Desktop\First\menuStream\obj\Debug\menuStream.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\menuStream\obj\Debug\menuStream.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\menuStream\obj\Debug\menuStream.Form1.resources
+C:\Users\KOSTA\Desktop\First\menuStream\obj\Debug\menuStream.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\menuStream\obj\Debug\menuStream.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\menuStream\obj\Debug\menuStream.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\menuStream\obj\Debug\menuStream.exe
+C:\Users\KOSTA\Desktop\First\menuStream\obj\Debug\menuStream.pdb

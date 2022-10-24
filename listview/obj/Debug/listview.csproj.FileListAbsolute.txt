@@ -1,0 +1,11 @@
+C:\Users\KOSTA\Desktop\First\listview\bin\Debug\listview.exe.config
+C:\Users\KOSTA\Desktop\First\listview\bin\Debug\listview.exe
+C:\Users\KOSTA\Desktop\First\listview\bin\Debug\listview.pdb
+C:\Users\KOSTA\Desktop\First\listview\obj\Debug\listview.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\listview\obj\Debug\listview.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\listview\obj\Debug\listview.Form1.resources
+C:\Users\KOSTA\Desktop\First\listview\obj\Debug\listview.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\listview\obj\Debug\listview.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\listview\obj\Debug\listview.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\listview\obj\Debug\listview.exe
+C:\Users\KOSTA\Desktop\First\listview\obj\Debug\listview.pdb

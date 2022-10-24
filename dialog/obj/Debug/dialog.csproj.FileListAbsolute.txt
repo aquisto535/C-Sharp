@@ -1,0 +1,13 @@
+C:\Users\KOSTA\Desktop\First\dialog\bin\Debug\dialog.exe.config
+C:\Users\KOSTA\Desktop\First\dialog\bin\Debug\dialog.exe
+C:\Users\KOSTA\Desktop\First\dialog\bin\Debug\dialog.pdb
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.Form1.resources
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.modalform.resources
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.modalistForm.resources
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.exe
+C:\Users\KOSTA\Desktop\First\dialog\obj\Debug\dialog.pdb

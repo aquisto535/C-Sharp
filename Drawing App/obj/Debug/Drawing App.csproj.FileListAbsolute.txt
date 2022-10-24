@@ -1,0 +1,11 @@
+C:\Users\KOSTA\Desktop\First\Drawing App\bin\Debug\Drawing App.exe.config
+C:\Users\KOSTA\Desktop\First\Drawing App\bin\Debug\Drawing App.exe
+C:\Users\KOSTA\Desktop\First\Drawing App\bin\Debug\Drawing App.pdb
+C:\Users\KOSTA\Desktop\First\Drawing App\obj\Debug\Drawing App.csproj.AssemblyReference.cache
+C:\Users\KOSTA\Desktop\First\Drawing App\obj\Debug\Drawing App.csproj.SuggestedBindingRedirects.cache
+C:\Users\KOSTA\Desktop\First\Drawing App\obj\Debug\Drawing_App.Form1.resources
+C:\Users\KOSTA\Desktop\First\Drawing App\obj\Debug\Drawing_App.Properties.Resources.resources
+C:\Users\KOSTA\Desktop\First\Drawing App\obj\Debug\Drawing App.csproj.GenerateResource.cache
+C:\Users\KOSTA\Desktop\First\Drawing App\obj\Debug\Drawing App.csproj.CoreCompileInputs.cache
+C:\Users\KOSTA\Desktop\First\Drawing App\obj\Debug\Drawing App.exe
+C:\Users\KOSTA\Desktop\First\Drawing App\obj\Debug\Drawing App.pdb
