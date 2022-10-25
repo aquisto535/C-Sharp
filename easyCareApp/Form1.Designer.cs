@@ -31,7 +31,8 @@
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.saveRecordBtn = new System.Windows.Forms.Button();
+            this.diag_exit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,35 +45,47 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(1, 5);
+            this.pictureBox1.Location = new System.Drawing.Point(1, 24);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1173, 523);
+            this.pictureBox1.Size = new System.Drawing.Size(1190, 504);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 534);
+            this.textBox1.Location = new System.Drawing.Point(12, 547);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(999, 86);
+            this.textBox1.Size = new System.Drawing.Size(984, 86);
             this.textBox1.TabIndex = 1;
             // 
-            // button1
+            // saveRecordBtn
             // 
-            this.button1.Location = new System.Drawing.Point(1017, 534);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 86);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.saveRecordBtn.Location = new System.Drawing.Point(1017, 547);
+            this.saveRecordBtn.Name = "saveRecordBtn";
+            this.saveRecordBtn.Size = new System.Drawing.Size(154, 36);
+            this.saveRecordBtn.TabIndex = 2;
+            this.saveRecordBtn.Text = "기록 저장";
+            this.saveRecordBtn.UseVisualStyleBackColor = true;
+            // 
+            // diag_exit
+            // 
+            this.diag_exit.Location = new System.Drawing.Point(1017, 598);
+            this.diag_exit.Name = "diag_exit";
+            this.diag_exit.Size = new System.Drawing.Size(157, 35);
+            this.diag_exit.TabIndex = 3;
+            this.diag_exit.Text = "진료 종료";
+            this.diag_exit.UseVisualStyleBackColor = true;
+            this.diag_exit.Click += new System.EventHandler(this.diag_exit_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1175, 643);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(1194, 658);
+            this.Controls.Add(this.diag_exit);
+            this.Controls.Add(this.saveRecordBtn);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form1";
@@ -90,7 +103,8 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button saveRecordBtn;
+        private System.Windows.Forms.Button diag_exit;
     }
 }
 

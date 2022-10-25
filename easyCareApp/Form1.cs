@@ -15,7 +15,7 @@ using OpenCvSharp.Extensions;
 
 namespace easyCareApp
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         private readonly VideoCapture capture;
 
@@ -69,6 +69,11 @@ namespace easyCareApp
             pictureBox1.Image?.Dispose();
             pictureBox1.Image = frameBitmap;
         
+        }
+
+        private void diag_exit_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

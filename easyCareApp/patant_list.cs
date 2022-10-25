@@ -10,11 +10,31 @@ using System.Windows.Forms;
 
 namespace easyCareApp
 {
-    public partial class pats_lists : Form
+    public partial class pats_lists : MetroFramework.Forms.MetroForm
     {
         public pats_lists()
         {
             InitializeComponent();
         }
+
+        private void diag_button_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void metroLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dig_startBtn_Click(object sender, EventArgs e)
+        {
+            Form1 form = new Form1();
+            form.Show(); 
+            form.Width = 1200;
+            form.Height = 658;
+        }
+
+     
     }
 }

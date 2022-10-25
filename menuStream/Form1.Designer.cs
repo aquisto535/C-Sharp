@@ -44,7 +44,7 @@
             this.파일ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(827, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -62,28 +62,28 @@
             // 새로만들기ToolStripMenuItem
             // 
             this.새로만들기ToolStripMenuItem.Name = "새로만들기ToolStripMenuItem";
-            this.새로만들기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.새로만들기ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.새로만들기ToolStripMenuItem.Text = "새로만들기";
             this.새로만들기ToolStripMenuItem.Click += new System.EventHandler(this.새로만들기ToolStripMenuItem_Click);
             // 
             // 열기ToolStripMenuItem
             // 
             this.열기ToolStripMenuItem.Name = "열기ToolStripMenuItem";
-            this.열기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.열기ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.열기ToolStripMenuItem.Text = "열기";
             this.열기ToolStripMenuItem.Click += new System.EventHandler(this.열기ToolStripMenuItem_Click);
             // 
             // 저장ToolStripMenuItem
             // 
             this.저장ToolStripMenuItem.Name = "저장ToolStripMenuItem";
-            this.저장ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.저장ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.저장ToolStripMenuItem.Text = "저장";
             this.저장ToolStripMenuItem.Click += new System.EventHandler(this.저장ToolStripMenuItem_Click);
             // 
             // 종료ToolStripMenuItem
             // 
             this.종료ToolStripMenuItem.Name = "종료ToolStripMenuItem";
-            this.종료ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.종료ToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.종료ToolStripMenuItem.Text = "종료";
             this.종료ToolStripMenuItem.Click += new System.EventHandler(this.종료ToolStripMenuItem_Click);
             // 
@@ -101,7 +101,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(827, 500);
             this.Controls.Add(this.lblResult);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
