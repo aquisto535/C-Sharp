@@ -20,7 +20,7 @@ namespace dialog
         private void btnModal_Click(object sender, EventArgs e)
         {
             modalform modal = new modalform();
-            
+            modal.Show();
         }
 
         private void btnModalists_Click(object sender, EventArgs e)

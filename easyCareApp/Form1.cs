@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Imaging;
+using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,11 +18,11 @@ using OpenCvSharp.Extensions;
 
 namespace easyCareApp
 {
-    public partial class Form1 : MetroFramework.Forms.MetroForm
+    public partial class Form1 : MetroFramework.Forms.MetroForm 
     {
         private readonly VideoCapture capture;
 
-        
+
         public Form1()
         {
             InitializeComponent();
@@ -75,5 +78,65 @@ namespace easyCareApp
         {
             Close();
         }
+
+        private void CreateFile()
+        {
+            
+            String str = pat_consult.Text;
+
+            StreamWriter sw = new StreamWriter("C:\\Users\\KOSTA\\consult.txt", true);
+            sw.WriteLine(str);
+            sw.Close();
+
+        }
+
+    
+        
+
+
+public void saveRecordBtn_Click(object sender, EventArgs e)
+        {
+          
+
+            if (pat_consult.Text == "")
+            {
+                MessageBox.Show("상담내용을 적어주세요");
+            }
+
+            
+            
+
+            CreateFile();
+
+
+
+            try
+
+            {
+
+                //Creating a new Bitmap object
+                Bitmap captureBitmap = new Bitmap(this.ClientRectangle.Width + 200, this.ClientRectangle.Width, PixelFormat.Format32bppArgb);
+                //Bitmap captureBitmap = new Bitmap(int width, int height, PixelFormat);
+                //Creating a Rectangle object which will
+                //capture our Current Screen
+                Rectangle captureRectangle = Screen.PrimaryScreen.Bounds;
+                //Creating a New Graphics Object
+                Graphics captureGraphics = Graphics.FromImage(captureBitmap);
+                //Copying Image from The Screen
+                captureGraphics.CopyFromScreen(captureRectangle.X, captureRectangle.Y, 0, 0, captureRectangle.Size);
+                //Saving the Image File (I am here Saving it in My E drive).
+                captureBitmap.Save(@"C:\Users\KOSTA\Capture.jpg", ImageFormat.Jpeg);
+                //Displaying the Successfull Result
+                MessageBox.Show("Screen Captured");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+        }
+
+      
     }
 }

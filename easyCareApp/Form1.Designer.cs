@@ -30,7 +30,7 @@
         {
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.pat_consult = new System.Windows.Forms.TextBox();
             this.saveRecordBtn = new System.Windows.Forms.Button();
             this.diag_exit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -45,20 +45,20 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(1, 24);
+            this.pictureBox1.Location = new System.Drawing.Point(1, 64);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1190, 504);
+            this.pictureBox1.Size = new System.Drawing.Size(1190, 459);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // pat_consult
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 547);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(984, 86);
-            this.textBox1.TabIndex = 1;
+            this.pat_consult.Location = new System.Drawing.Point(12, 547);
+            this.pat_consult.Multiline = true;
+            this.pat_consult.Name = "pat_consult";
+            this.pat_consult.Size = new System.Drawing.Size(984, 86);
+            this.pat_consult.TabIndex = 1;
             // 
             // saveRecordBtn
             // 
@@ -68,6 +68,7 @@
             this.saveRecordBtn.TabIndex = 2;
             this.saveRecordBtn.Text = "기록 저장";
             this.saveRecordBtn.UseVisualStyleBackColor = true;
+            this.saveRecordBtn.Click += new System.EventHandler(this.saveRecordBtn_Click);
             // 
             // diag_exit
             // 
@@ -86,9 +87,11 @@
             this.ClientSize = new System.Drawing.Size(1194, 658);
             this.Controls.Add(this.diag_exit);
             this.Controls.Add(this.saveRecordBtn);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pat_consult);
             this.Controls.Add(this.pictureBox1);
+            this.Location = new System.Drawing.Point(1, 64);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.WindowsDefaultBounds;
             this.Text = "Form1";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -102,7 +105,7 @@
 
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox pat_consult;
         private System.Windows.Forms.Button saveRecordBtn;
         private System.Windows.Forms.Button diag_exit;
     }

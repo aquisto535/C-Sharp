@@ -38,9 +38,9 @@
             this.metroLabel3 = new MetroFramework.Controls.MetroLabel();
             this.dig_startBtn = new MetroFramework.Controls.MetroButton();
             this.pat_name = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pat_address = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.pat_phone = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.diagnosis_content = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.listView1 = new System.Windows.Forms.ListView();
             this.patient_addBtn = new MetroFramework.Controls.MetroButton();
             this.patient_deleteBtn = new MetroFramework.Controls.MetroButton();
@@ -159,7 +159,7 @@
             // metroLabel1
             // 
             this.metroLabel1.AutoSize = true;
-            this.metroLabel1.Location = new System.Drawing.Point(64, 109);
+            this.metroLabel1.Location = new System.Drawing.Point(55, 109);
             this.metroLabel1.Name = "metroLabel1";
             this.metroLabel1.Size = new System.Drawing.Size(37, 19);
             this.metroLabel1.TabIndex = 13;
@@ -169,7 +169,7 @@
             // metroLabel2
             // 
             this.metroLabel2.AutoSize = true;
-            this.metroLabel2.Location = new System.Drawing.Point(64, 173);
+            this.metroLabel2.Location = new System.Drawing.Point(55, 241);
             this.metroLabel2.Name = "metroLabel2";
             this.metroLabel2.Size = new System.Drawing.Size(51, 19);
             this.metroLabel2.TabIndex = 14;
@@ -178,7 +178,7 @@
             // metroLabel3
             // 
             this.metroLabel3.AutoSize = true;
-            this.metroLabel3.Location = new System.Drawing.Point(64, 237);
+            this.metroLabel3.Location = new System.Drawing.Point(55, 177);
             this.metroLabel3.Name = "metroLabel3";
             this.metroLabel3.Size = new System.Drawing.Size(37, 19);
             this.metroLabel3.TabIndex = 15;
@@ -199,28 +199,28 @@
             this.pat_name.Text = "이름";
             this.pat_name.Width = 180;
             // 
-            // columnHeader1
+            // pat_address
             // 
-            this.columnHeader1.Text = "주소";
-            this.columnHeader1.Width = 180;
+            this.pat_address.Text = "주소";
+            this.pat_address.Width = 180;
             // 
-            // columnHeader2
+            // pat_phone
             // 
-            this.columnHeader2.Text = "연락처";
-            this.columnHeader2.Width = 180;
+            this.pat_phone.Text = "연락처";
+            this.pat_phone.Width = 180;
             // 
-            // columnHeader3
+            // diagnosis_content
             // 
-            this.columnHeader3.Text = "진료내용";
-            this.columnHeader3.Width = 250;
+            this.diagnosis_content.Text = "진료내용";
+            this.diagnosis_content.Width = 250;
             // 
             // listView1
             // 
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.pat_name,
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3});
+            this.pat_address,
+            this.pat_phone,
+            this.diagnosis_content});
             this.listView1.HideSelection = false;
             this.listView1.Location = new System.Drawing.Point(0, 311);
             this.listView1.Name = "listView1";
@@ -237,6 +237,7 @@
             this.patient_addBtn.TabIndex = 17;
             this.patient_addBtn.Text = "추가";
             this.patient_addBtn.UseSelectable = true;
+            this.patient_addBtn.Click += new System.EventHandler(this.patient_addBtn_Click);
             // 
             // patient_deleteBtn
             // 
@@ -246,6 +247,7 @@
             this.patient_deleteBtn.TabIndex = 18;
             this.patient_deleteBtn.Text = "삭제";
             this.patient_deleteBtn.UseSelectable = true;
+            this.patient_deleteBtn.Click += new System.EventHandler(this.patient_deleteBtn_Click);
             // 
             // digStartBtn
             // 
@@ -309,14 +311,14 @@
         private MetroFramework.Controls.MetroLabel metroLabel3;
         private MetroFramework.Controls.MetroButton dig_startBtn;
         private System.Windows.Forms.ColumnHeader pat_name;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
+        private System.Windows.Forms.ColumnHeader pat_address;
+        private System.Windows.Forms.ColumnHeader pat_phone;
         private System.Windows.Forms.ListView listView1;
         private MetroFramework.Controls.MetroButton patient_addBtn;
         private MetroFramework.Controls.MetroButton patient_deleteBtn;
         private MetroFramework.Controls.MetroButton digStartBtn;
         private MetroFramework.Controls.MetroButton metroButton2;
         private MetroFramework.Controls.MetroButton metroButton3;
+        public System.Windows.Forms.ColumnHeader diagnosis_content;
     }
 }
