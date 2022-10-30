@@ -84,7 +84,7 @@ namespace easyCareApp
             
             String str = pat_consult.Text;
 
-            StreamWriter sw = new StreamWriter("C:\\Users\\KOSTA\\consult.txt", true);
+            StreamWriter sw = new StreamWriter("C:\\Users\\user\\Desktop\\consult.txt", true);
             sw.WriteLine(str);
             sw.Close();
 
@@ -103,10 +103,20 @@ public void saveRecordBtn_Click(object sender, EventArgs e)
                 MessageBox.Show("상담내용을 적어주세요");
             }
 
-            
-            
+            string path = "@\"C:\\Users\\user\\Desktop\\consult.txt";
 
-            CreateFile();
+
+            if (File.Exists(path))
+            {
+
+            }
+            else
+            {
+
+                CreateFile();
+            }
+
+
 
 
 
@@ -125,7 +135,7 @@ public void saveRecordBtn_Click(object sender, EventArgs e)
                 //Copying Image from The Screen
                 captureGraphics.CopyFromScreen(captureRectangle.X, captureRectangle.Y, 0, 0, captureRectangle.Size);
                 //Saving the Image File (I am here Saving it in My E drive).
-                captureBitmap.Save(@"C:\Users\KOSTA\Capture.jpg", ImageFormat.Jpeg);
+                captureBitmap.Save(@"C:\Users\user\Desktop\Capture.jpg", ImageFormat.Jpeg);
                 //Displaying the Successfull Result
                 MessageBox.Show("Screen Captured");
 
